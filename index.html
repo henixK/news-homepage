@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script type="module" src="main.js"></script>
+  <title>Frontend Mentor | News homepage</title>
+
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body class="md:p-10">
+  <header class="p-4">
+    <div class="w-full flex justify-between items-center">
+      <div class="">
+        <img src="./assets/images/logo.svg" alt="">
+      </div>
+
+      <nav>
+        <button id="toggle" data-collapse-toggle="#navbar-default" type="button"
+        class="toggle bg-transparent z-[999] min-w-[3em] aspect-[1] md:hidden absolute top-7 right-[1rem]"
+        aria-controls="navbar-default" aria-expanded="false"
+        style="background-image: url('./assets/images/icon-menu.svg'); background-repeat: no-repeat;">
+        <span class="sr-only">Menu</span>
+      </button>
+      
+        <ul id="navbar-default" data-visible="false"
+          class="flex flex-col md:gap-20 gap-4 px-10 py-44 md:p-0 md:flex-row md:static fixed inset-0 left-[20%] bg-white translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out">
+          <li>
+            <a href="#" class="block">Home</a>
+          </li>
+          <li>
+            <a href="#" class="block">About</a>
+          </li>
+          <li>
+            <a href="#" class="block">Services</a>
+          </li>
+          <li>
+            <a href="#" class="block">Pricing</a>
+          </li>
+          <li>
+            <a href="#" class="block">Contact</a>
+          </li>
+        </ul>
+    </div>
+    </nav>
+
+
+  </header>
+
+
+  <main>
+    <div class="w-full md:max-h-[70vh] md:flex">
+      <div class="p-4 md:max-w-[800px]">
+        <img class="md:hidden block" src="./assets/images/image-web-3-mobile.jpg" alt="">
+        <img class="md:block hidden" src="./assets/images/image-web-3-desktop.jpg" alt="">
+        <div class="md:flex">
+          <h1 class="text-5xl font-extrabold mt-4">
+            The Bright Future of Web 3.0?
+          </h1>
+          <div class="md:px-8">
+            <p class="my-4">
+              We dive into the next evolution of the web that claims to put the power of the platforms back into the
+              hands
+              of
+              the
+              people.
+              But is it really fulfilling its promise?
+            </p>
+            <button
+              class="hover:bg-[#00001a] w-1/2 max-h-[100px] bg-[#f15e50] font-bold text-white p-3 md:px-8 uppercase tracking-widest">Read
+              more</button>
+          </div>
+        </div>
+
+      </div>
+      <section class="px-4 md:p-4">
+        <div class=" bg-[#00001a] px-4">
+          <h2 class="text-3xl text-[#e9ab53] font-bold py-6">New</h2>
+          <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] ">
+            <h3 class="text-white font-bold text-xl my-2">Hydrogen VS Electric Cars</h3>
+            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+
+          <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] py-6">
+            <h3 class="text-white font-bold text-xl my-2">The Downsides of AI Artistry</h3>
+            <p>What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] py-6">
+            <h3 class="text-white font-bold text-xl my-2">Is VC Funding Drying Up?</h3>
+            <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+        </div>
+
+      </section>
+    </div>
+  </main>
+
+
+  <section>
+    <div class="w-full flex mt-10 flex-wrap md:flex-row gap-10 md:gap-0 p-4">
+      <div class="w-full md:w-1/3 flex">
+        <div class="min-w-[120px] min-h-[150px]">
+          <img class="object-contain" src="./assets/images/image-retro-pcs.jpg" alt="">
+        </div>
+        <div class="px-2">
+          <h2 class="text-3xl text-[#c5c6ce] font-bold">01</h2>
+          <h3 class="text-lg font-extrabold my-2">Reviving Retro PCs</h3>
+          <p>What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 flex">
+        <div class="min-w-[120px] min-h-[150px]">
+          <img class="object-contain" src="./assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="px-2">
+          <h2 class="text-3xl text-[#c5c6ce] font-bold">02</h2>
+          <h3 class="text-lg font-extrabold my-2">Top 10 Laptops of 2022</h3>
+          <p>Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="w-full md:w-1/3 flex">
+        <div class="min-w-[120px] min-h-[150px]">
+          <img class="object-contain" src="./assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="px-2">
+          <h2 class="text-3xl text-[#c5c6ce] font-bold">03</h2>
+          <h3 class="text-lg font-extrabold my-2">The Growth of Gaming</h3>
+          <p>How the pandemic has sparked fresh opportunities</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </footer>
+</body>
+
+</html>

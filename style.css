@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('./assets/fonts/Inter-VariableFont_slnt,wght.ttf');
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+p {
+    font-size: 15px;
+    color: hsl(236, 13%, 42%);
+}
+
+.toggle {
+    background-image: url('./assets/images/icon-menu.svg');
+    background-repeat: no-repeat;
+}
+
+.toggle[aria-expanded='true'] {
+    background-image: url(./assets/images/icon-menu-close.svg);
+}
+
+a:hover {
+    color: hsl(5, 85%, 63%);
+}
+
