@@ -31,12 +31,12 @@
 
       <nav>
         <button id="toggle" data-collapse-toggle="#navbar-default" type="button"
-        class="toggle bg-transparent z-[999] min-w-[3em] aspect-[1] md:hidden absolute top-7 right-[1rem]"
-        aria-controls="navbar-default" aria-expanded="false"
-        style="background-image: url('./assets/images/icon-menu.svg'); background-repeat: no-repeat;">
-        <span class="sr-only">Menu</span>
-      </button>
-      
+          class="toggle bg-transparent z-[999] min-w-[3em] aspect-[1] md:hidden absolute top-7 right-[1rem]"
+          aria-controls="navbar-default" aria-expanded="false"
+          style="background-image: url('./assets/images/icon-menu.svg'); background-repeat: no-repeat;">
+          <span class="sr-only">Menu</span>
+        </button>
+
         <ul id="navbar-default" data-visible="false"
           class="flex flex-col md:gap-20 gap-4 px-10 py-44 md:p-0 md:flex-row md:static fixed inset-0 left-[20%] bg-white translate-x-full md:translate-x-0 transition-transform duration-300 ease-in-out">
           <li>
@@ -57,13 +57,11 @@
         </ul>
     </div>
     </nav>
-
-
   </header>
 
 
-  <main>
-    <div class="w-full md:max-h-[70vh] md:flex">
+  <main class="w-full md:max-h-[70vh] md:flex">
+    <section>
       <div class="p-4 md:max-w-[800px]">
         <img class="md:hidden block" src="./assets/images/image-web-3-mobile.jpg" alt="">
         <img class="md:block hidden" src="./assets/images/image-web-3-desktop.jpg" alt="">
@@ -85,28 +83,28 @@
               more</button>
           </div>
         </div>
+    </section>
 
-      </div>
-      <section class="px-4 md:p-4">
-        <div class=" bg-[#00001a] px-4">
-          <h2 class="text-3xl text-[#e9ab53] font-bold py-6">New</h2>
-          <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] ">
-            <h3 class="text-white font-bold text-xl my-2">Hydrogen VS Electric Cars</h3>
-            <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
-          </div>
 
-          <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] py-6">
-            <h3 class="text-white font-bold text-xl my-2">The Downsides of AI Artistry</h3>
-            <p>What are the possible adverse effects of on-demand AI image generation?</p>
-          </div>
-          <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] py-6">
-            <h3 class="text-white font-bold text-xl my-2">Is VC Funding Drying Up?</h3>
-            <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
-          </div>
+    </div>
+    <section class="px-4 md:p-4">
+      <div class=" bg-[#00001a] px-4">
+        <h2 class="text-3xl text-[#e9ab53] font-bold py-6">New</h2>
+        <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] ">
+          <h3 class="text-white font-bold text-xl my-2">Hydrogen VS Electric Cars</h3>
+          <p>Will hydrogen-fueled cars ever catch up to EVs?</p>
         </div>
 
-      </section>
-    </div>
+        <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] py-6">
+          <h3 class="text-white font-bold text-xl my-2">The Downsides of AI Artistry</h3>
+          <p>What are the possible adverse effects of on-demand AI image generation?</p>
+        </div>
+        <div class="min-h-[100px] border-b-[1px] border-[#5d5f79] py-6">
+          <h3 class="text-white font-bold text-xl my-2">Is VC Funding Drying Up?</h3>
+          <p> Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+        </div>
+      </div>
+    </section>
   </main>
 
 
